@@ -56,6 +56,7 @@ Personal Portfolio/
 ├── js/
 │   └── script.js                 # Theme toggle, 3D flip card, modals, filters, toast notifications
 ├── assets/
+│   ├── profile.jpg               # Professional portrait of Martin Gabriel Ubalde
 │   ├── business-card.jpg         # Original high-res business card mockup
 │   ├── card-front.png            # Front card asset with MGU monogram
 │   ├── card-back.png             # Back card asset with QR code and contact info
