@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgData" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090E1A"/>
+      <stop offset="100%" stop-color="#0E1726"/>
+    </linearGradient>
+    <linearGradient id="goldD" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F5D77F"/>
+      <stop offset="100%" stop-color="#C5A059"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+    <linearGradient id="barGradGold" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F5D77F"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bgData)"/>
+
+  <!-- Geometric accent lines -->
+  <line x1="50" y1="50" x2="250" y2="50" stroke="rgba(197, 160, 89, 0.2)" stroke-width="2"/>
+  <line x1="600" y1="450" x2="750" y2="450" stroke="rgba(56, 189, 248, 0.2)" stroke-width="2"/>
+
+  <!-- Main Container -->
+  <g transform="translate(60, 45)">
+    <rect width="680" height="410" rx="14" fill="#111B30" stroke="rgba(197, 160, 89, 0.3)" stroke-width="1.5"/>
+
+    <!-- Banner -->
+    <rect width="680" height="55" rx="14" fill="#16233B"/>
+    <text x="30" y="34" fill="#F5D77F" font-family="'Cinzel', serif" font-size="16" font-weight="bold" letter-spacing="1">DATABIZ 2024</text>
+    <text x="175" y="34" fill="#94A3B8" font-family="sans-serif" font-size="11">Data Science &bull; Artificial Intelligence &bull; Business Analytics</text>
+
+    <!-- Certificate Badge Pill -->
+    <rect x="525" y="15" width="125" height="25" rx="12" fill="rgba(197, 160, 89, 0.15)" stroke="rgba(197, 160, 89, 0.4)"/>
+    <text x="587" y="32" fill="#F5D77F" font-family="sans-serif" font-size="10" text-anchor="middle" font-weight="bold">&starf; CERTIFIED 2024</text>
+
+    <!-- Left Chart: Analytics & Trends -->
+    <g transform="translate(25, 75)">
+      <rect width="360" height="295" rx="10" fill="#141E34" stroke="rgba(255,255,255,0.05)"/>
+      <text x="20" y="28" fill="#F1F5F9" font-family="sans-serif" font-size="13" font-weight="600">Predictive Analytics &amp; Decision Models</text>
+      <text x="20" y="46" fill="#64748B" font-family="sans-serif" font-size="10">IT Service Metrics &amp; Trend Forecasting</text>
+
+      <!-- Bar Chart -->
+      <g transform="translate(30, 70)">
+        <!-- Grid lines -->
+        <line x1="0" y1="140" x2="300" y2="140" stroke="rgba(255,255,255,0.1)"/>
+        <line x1="0" y1="90" x2="300" y2="90" stroke="rgba(255,255,255,0.05)"/>
+        <line x1="0" y1="40" x2="300" y2="40" stroke="rgba(255,255,255,0.05)"/>
+
+        <!-- Bars -->
+        <rect x="15" y="60" width="28" height="80" rx="4" fill="url(#barGrad)"/>
+        <rect x="65" y="35" width="28" height="105" rx="4" fill="url(#barGradGold)"/>
+        <rect x="115" y="45" width="28" height="95" rx="4" fill="url(#barGrad)"/>
+        <rect x="165" y="20" width="28" height="120" rx="4" fill="url(#barGradGold)"/>
+        <rect x="215" y="30" width="28" height="110" rx="4" fill="url(#barGrad)"/>
+        <rect x="265" y="10" width="28" height="130" rx="4" fill="url(#barGradGold)"/>
+
+        <!-- Labels -->
+        <text x="29" y="158" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">Q1</text>
+        <text x="79" y="158" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">Q2</text>
+        <text x="129" y="158" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">Q3</text>
+        <text x="179" y="158" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">Q4</text>
+        <text x="229" y="158" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">AI-1</text>
+        <text x="279" y="158" fill="#94A3B8" font-family="sans-serif" font-size="9" text-anchor="middle">AI-2</text>
+
+        <!-- Trend Line -->
+        <path d="M29,60 Q129,20 279,10" fill="none" stroke="#F5D77F" stroke-width="2.5" stroke-linecap="round"/>
+        <circle cx="279" cy="10" r="5" fill="#F5D77F" stroke="#0B1320" stroke-width="2"/>
+      </g>
+
+      <rect x="25" y="245" width="310" height="35" rx="6" fill="rgba(197, 160, 89, 0.1)"/>
+      <text x="35" y="267" fill="#F5D77F" font-family="sans-serif" font-size="11">&bull; AI Workflow Automation &bull; Data-Driven IT Ops</text>
+    </g>
+
+    <!-- Right Side: Key Learning Pillars -->
+    <g transform="translate(410, 75)">
+      <rect width="245" height="295" rx="10" fill="#141E34" stroke="rgba(255,255,255,0.05)"/>
+      <text x="20" y="28" fill="#F1F5F9" font-family="sans-serif" font-size="13" font-weight="600">Core Conference Takeaways</text>
+
+      <!-- Pillar 1 -->
+      <g transform="translate(15, 45)">
+        <rect width="215" height="65" rx="6" fill="#1A2744" stroke="rgba(56, 189, 248, 0.2)"/>
+        <circle cx="25" cy="32" r="12" fill="rgba(56, 189, 248, 0.15)"/>
+        <text x="25" y="36" fill="#38BDF8" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="bold">AI</text>
+        <text x="48" y="26" fill="#F1F5F9" font-family="sans-serif" font-size="11" font-weight="bold">Machine Intelligence</text>
+        <text x="48" y="44" fill="#94A3B8" font-family="sans-serif" font-size="9">GenAI for IT triage &amp; automated responses</text>
+      </g>
+
+      <!-- Pillar 2 -->
+      <g transform="translate(15, 120)">
+        <rect width="215" height="65" rx="6" fill="#1A2744" stroke="rgba(197, 160, 89, 0.2)"/>
+        <circle cx="25" cy="32" r="12" fill="rgba(197, 160, 89, 0.15)"/>
+        <text x="25" y="36" fill="#F5D77F" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="bold">BI</text>
+        <text x="48" y="26" fill="#F1F5F9" font-family="sans-serif" font-size="11" font-weight="bold">Business Analytics</text>
+        <text x="48" y="44" fill="#94A3B8" font-family="sans-serif" font-size="9">KPI metrics &amp; operational efficiency dashboards</text>
+      </g>
+
+      <!-- Pillar 3 -->
+      <g transform="translate(15, 195)">
+        <rect width="215" height="65" rx="6" fill="#1A2744" stroke="rgba(16, 185, 129, 0.2)"/>
+        <circle cx="25" cy="32" r="12" fill="rgba(16, 185, 129, 0.15)"/>
+        <text x="25" y="36" fill="#10B981" font-family="sans-serif" font-size="12" text-anchor="middle" font-weight="bold">DS</text>
+        <text x="48" y="26" fill="#F1F5F9" font-family="sans-serif" font-size="11" font-weight="bold">Data Science Essentials</text>
+        <text x="48" y="44" fill="#94A3B8" font-family="sans-serif" font-size="9">Transforming raw records into actionable insights</text>
+      </g>
+    </g>
+  </g>
+</svg>
